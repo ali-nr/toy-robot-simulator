@@ -15,7 +15,7 @@ properties.playground = {
 }
 
 properties.messages = {
-  appStarted: 'Hi, please start by placing the robot on the playground, using command PLACE X, Y, F. X & Y are positive integers, and F is one fo the following: WEST, NORTH, EAST, SOUTH',
+  appStarted: 'Hi, please start by placing the robot on the playground, using command PLACE X, Y, F. X & Y are positive integers, and F is one of the following: WEST, NORTH, EAST, SOUTH',
   outOfField: "Oops, you can't drop the robot out of the field, please make another move",
   invalidAxisInput: 'Oops, a and y values should be positive and within the range of field',
   noInitialPlacement: 'Oops, you have to first place the robot in the playground, please try again!',
