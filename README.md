@@ -33,6 +33,9 @@ jasmine spec/playground-spec.js //To run playground class tests
 jasmine spec/message-manager-spec.js //To run messageManager class tests
 ```
 
+** It is important to note that I have used the Javascript Standard Style to write the application
+<https://standardjs.com/>
+
 ## App specifications
 
 * PLACE will put the toy robot on the table in position X, Y and facing NORTH, SOUTH, EAST or WEST
