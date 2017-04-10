@@ -43,3 +43,17 @@ jasmine spec/message-manager-spec.js //To run messageManager class tests
 
 * The toy robot must not fall off the table during movement. This also includes the initial placement of the toy robot
 * Any move that would cause the robot to fall off the table-top must be ignored
+
+## APP structure
+
+The app has four classes:
+* Robot: responsible for representing a robot and its methods. Robot is dependent on MessageManager and Playground classes. 
+* Playground: resobnsible for representing a playground where robot is placed and moved on. 
+* MessageManager: responsible for preparing any message that robot needs to show to the user
+* ToyRobotProgram: is responsible for running the app by instantiating a new robot and taking care of user interactions
+
+```properties.js```: is an object that holds static data being used by Robot, MessageManager, Playground classes
+
+```app.js```: takes care instantiating the ToyRobotProgram and calling its run method to start the app
+
+```index.js```: It is the starting point of our NodeJs app which creates a new instance of App class
