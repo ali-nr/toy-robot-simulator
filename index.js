@@ -1,5 +1,3 @@
-'use strict'
-
 let App = require('./app/app.js')
 
 /**
