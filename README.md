@@ -12,6 +12,12 @@
 In order to run the app
 * Please install NodeJs
 * Please install npm
+* Make sure you have added npm to your path:
+
+``` npm bin -g ```
+
+``` export PATH=$PATH:/path to your 'npm-packages/bin' ```
+
 * It is optional to install dependencies as they are dev dependencies used for eslint
 * You should then be able to run ```npm start``` to run the app:
 
@@ -44,7 +50,7 @@ jasmine spec/message-manager-spec.js //To run messageManager class tests
 * The toy robot must not fall off the table during movement. This also includes the initial placement of the toy robot
 * Any move that would cause the robot to fall off the table-top must be ignored
 
-## APP structure
+## App structure
 
 The app has four classes:
 * Robot: responsible for representing a robot and its methods. Robot is dependent on MessageManager and Playground classes. 
